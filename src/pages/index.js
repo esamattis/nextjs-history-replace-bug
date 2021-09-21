@@ -1,9 +1,10 @@
 import Link from "next/link";
+import router from "next/router";
 
 function callHistoryReplaceState() {
   const current = new URL(window.location.toString());
   current.searchParams.set("ding", Math.random());
-  history.replaceState(null, null, current.toString());
+  router.replace(current.toString());
 }
 
 function FrontPage() {
