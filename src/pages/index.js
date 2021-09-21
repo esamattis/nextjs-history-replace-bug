@@ -17,6 +17,12 @@ function FrontPage() {
       <p>
         <Link href="/page2">Go to page2</Link>
       </p>
+
+      <p>
+        <a href="https://github.com/esamattis/nextjs-history-replace-bug">
+          Source code
+        </a>
+      </p>
     </div>
   );
 }
